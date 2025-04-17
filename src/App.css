@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+  padding: '20px';
 }
 
 .App-logo {
@@ -35,4 +37,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+.cards {
+  /* display:"flex";
+  flex-direction:"row";
+  justify-content:"space-around"; */
+  margin-top: 20px;
+}
+.product {
+  display:"flex";
+  flex-direction:"column"; 
+  justify-content:"center";
+  align-items:"center"
+}
+/* Add these styles to your App.css file */
+
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .profile {
+    flex-direction: column;
+  }
+}
+
+/* Animation for buttons */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card hover effect */
+.product:hover, .card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15) !important;
+}
+.App-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+
 }
