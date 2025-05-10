@@ -5,11 +5,11 @@ import product from './product.js';
 // import card from './card.js';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import {name,sname} from './Pname.js';
-import { selfieURL} from './Pimage.js';
-import description from './Pdescription.js';
-import price from './Pprice.js';
-import { tshirtURL } from './Pimage.js';
+import {name,sname} from './Name.js';
+import { selfieURL} from './Image.js';
+import description from './Description.js';
+import price from './Price.js';
+import { tshirtURL } from './Image.js';
 function App() {
   return (
     <div className="App">
@@ -56,7 +56,7 @@ function App() {
 
 }
 
-// export default App;
+export default App;
 // import './App.css';
 // import product from './product.js';
 // import Button from 'react-bootstrap/Button';

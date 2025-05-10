@@ -1,7 +1,7 @@
-import {name} from './Pname.js';
-import price from './Pprice.js';
-import description from './Pdescription.js';
-import {imageURL} from './Pimage.js';
+import {name} from './Name.js';
+import price from './Price.js';
+import description from './Description.js';
+import {imageURL} from './Image.js';
 const product = {
     name: name(),
     price: price(),
